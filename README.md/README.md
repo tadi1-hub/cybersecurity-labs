@@ -166,7 +166,7 @@ A short videoes demonstrate the active alert being generated during the SSH brut
 The video is located in:
 
 video/
-└── ssh-alert-demo.mp4
+└── possible ssh brute force 1 and 2.mp4
 Response
 
 After detecting the repeated authentication failures, I tested firewall-based response using UFW.
