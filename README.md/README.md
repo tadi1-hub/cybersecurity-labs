@@ -112,10 +112,11 @@ Alert
 
 When the threshold is reached, the script generates an alert similar to:
 
+Broadcast message from username@server_name (somewhere) current_date_and_time
 🚨 CRITICAL SECURITY THREAT
 Possible SSH Brute Force
 Source IP: 192.168.x.x
-Number of Attempts: 6
+Number of Attempts: x
 Time Window: 3 minutes
 Detected: [timestamp]
 
@@ -128,6 +129,12 @@ I tested the detection by generating repeated failed SSH authentication attempts
 During testing, I initially expected every SSH interaction to appear as a Failed password event. After examining the complete SSH journal, I found that some connections were logged differently, for example:
 
 Connection closed by authenticating user ...
+
+While I found that, the attacker tried 9 times to gain access however, my alert showed only 6 attempts. After I investigate log file,
+
+I found that my alert system filters only "Failed password" logs and these are 6 times.
+
+The rest 3 attempts were authentication errors. "Connection closed by authenticating user ..."
 
 This helped me understand that an SSH connection event is not necessarily the same as a failed password authentication event.
 
