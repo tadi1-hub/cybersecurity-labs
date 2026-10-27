@@ -85,7 +85,7 @@ The log evidence shows the failed SSH password attempts examined during the lab.
 
 ### 3. Firewall and Packet-Capture Investigation
 
-![Firewall and packet-capture evidence](evidence/firewall-packet-capture.png)
+![Firewall and packet-capture evidence]()(evidence/Figure 08. Packet capture ‘tcpdump’ showing source address 192.168.229.130..png)
 
 This evidence documents the firewall troubleshooting and packet-capture observations made during testing.
 
