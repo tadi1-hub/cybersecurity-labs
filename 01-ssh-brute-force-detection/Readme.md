@@ -109,7 +109,7 @@ Evidence includes:
 - Packet capture and source-IP verification
 - Persistent alert-log output
 
-**Full report:** Read the complete lab report: 01-ssh-brute-force-detection/report/SSH_Brute_Force_Detection_Alerting_and_Firewall_Response_Report.pdf
+**Full report:** [Read the complete lab report](report/SSH_Brute_Force_Detection_Alerting_and_Firewall_Response_Report.pdf)
 
 ## Limitations
 
