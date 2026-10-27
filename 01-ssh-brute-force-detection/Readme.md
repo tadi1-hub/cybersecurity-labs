@@ -73,7 +73,7 @@ Because the script uses a rolling lookback window and runs periodically, the sam
 
 ### 1. SSH Brute-Force Detection Alert
 
-![SSH detection alert](evidence/detection-alert.png)
+![SSH detection alert](evidence/Figure 02. Ubuntu Server records the first test activity..png)
 
 The alert shows the source IP address and failed-password attempt count identified by the detection script.
 
