@@ -73,19 +73,19 @@ Because the script uses a rolling lookback window and runs periodically, the sam
 
 ### 1. SSH Brute-Force Detection Alert
 
-[SSH detection alert](evidence/Figure 02. Ubuntu Server records the first test activity..png)
+![SSH detection alert](evidence/Figure 02. Ubuntu Server records the first test activity..png)
 
 The alert shows the source IP address and failed-password attempt count identified by the detection script.
 
 ### 2. SSH Authentication Logs
 
-[SSH authentication log evidence](evidence/Figure 01. First SSH test launched from Kali Linux..png)
+![SSH authentication log evidence](evidence/Figure 01. First SSH test launched from Kali Linux..png)
 
 The log evidence shows the failed SSH password attempts examined during the lab.
 
 ### 3. Firewall and Packet-Capture Investigation
 
-[Firewall and packet-capture evidence](evidence/Figure 10. UFW rules after placing the source-specific reject rule ahead of the broad allow rule..png)(evidence/Figure 08. Packet capture ‘tcpdump’ showing source address 192.168.229.130..png)
+![Firewall and packet-capture evidence](evidence/Figure 10. UFW rules after placing the source-specific reject rule ahead of the broad allow rule..png)(evidence/Figure 08. Packet capture ‘tcpdump’ showing source address 192.168.229.130..png)
 
 This evidence documents the firewall troubleshooting and packet-capture observations made during testing.
 
