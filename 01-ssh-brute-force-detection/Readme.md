@@ -85,7 +85,7 @@ The log evidence shows the failed SSH password attempts examined during the lab.
 
 ### 3. Firewall and Packet-Capture Investigation
 
-![Firewall rules evidence](evidence/Figure 10. UFW rules after placing the source-specific reject rule ahead of the broad allow rule..png)
+![Firewall rules evidence](https://github.com/tadi1-hub/cybersecurity-labs/blob/master/01-ssh-brute-force-detection/evidence/Figure%2010.%20UFW%20rules%20after%20placing%20the%20source-specific%20reject%20rule%20ahead%20of%20the%20broad%20allow%20rule..png)
 ![Packet-capture evidence](evidence/Figure 08. Packet capture ‘tcpdump’ showing source address 192.168.229.130..png)
 
 This evidence documents the firewall troubleshooting and packet-capture observations made during testing.
