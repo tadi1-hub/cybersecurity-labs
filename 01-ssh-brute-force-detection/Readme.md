@@ -108,7 +108,7 @@ Evidence includes:
 - Packet capture and source-IP verification
 - Persistent alert-log output
 
-**Full report:** See the final report included in this repository.
+**Full report:** See the final report included in this repository. 01-ssh-brute-force-detection/report
 
 ## Limitations
 
