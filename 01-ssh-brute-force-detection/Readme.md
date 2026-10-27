@@ -79,7 +79,7 @@ The alert shows the source IP address and failed-password attempt count identifi
 
 ### 2. SSH Authentication Logs
 
-![SSH authentication log evidence](evidence/ssh-authentication-logs.png)
+![SSH authentication log evidence](evidence/Figure 01. First SSH test launched from Kali Linux..png)
 
 The log evidence shows the failed SSH password attempts examined during the lab.
 
