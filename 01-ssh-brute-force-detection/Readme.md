@@ -69,6 +69,26 @@ Because the script uses a rolling lookback window and runs periodically, the sam
 
 ### Testing and Observed Results
 
+## Selected Evidence
+
+### 1. SSH Brute-Force Detection Alert
+
+![SSH detection alert](evidence/detection-alert.png)
+
+The alert shows the source IP address and failed-password attempt count identified by the detection script.
+
+### 2. SSH Authentication Logs
+
+![SSH authentication log evidence](evidence/ssh-authentication-logs.png)
+
+The log evidence shows the failed SSH password attempts examined during the lab.
+
+### 3. Firewall and Packet-Capture Investigation
+
+![Firewall and packet-capture evidence](evidence/firewall-packet-capture.png)
+
+This evidence documents the firewall troubleshooting and packet-capture observations made during testing.
+
 ### 1. SSH authentication monitoring
 
 Generated SSH authentication failures and inspected the target's logs to identify the relevant failed-password events.
