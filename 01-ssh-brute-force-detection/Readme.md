@@ -58,6 +58,7 @@ The detection script follows this workflow:
 6. Generates a security alert containing the source IP, attempt count, time-window description, and timestamp.
 7. Broadcasts the alert to logged-in terminals and appends it to a persistent alert log.
 
+**Detection script:** [View the Bash detection script](scripts/ssh_bruteforce_detector.sh)
 The script is scheduled through cron to run once per minute.
 
 **Detection threshold:** At least 5 failed-password events per source IP.
@@ -108,7 +109,7 @@ Evidence includes:
 - Packet capture and source-IP verification
 - Persistent alert-log output
 
-**Full report:** See the final report included in this repository. 01-ssh-brute-force-detection/report
+**Full report:** Read the complete lab report: 01-ssh-brute-force-detection/report/SSH_Brute_Force_Detection_Alerting_and_Firewall_Response_Report.pdf
 
 ## Limitations
 
