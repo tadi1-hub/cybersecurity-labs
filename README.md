@@ -24,7 +24,7 @@ In this lab, I developed a Bash-based detection script to identify repeated fail
 
 **Key technologies:** Bash, Linux, Ubuntu Server, Ubuntu Desktop, Kali Linux, OpenSSH, `journalctl`, cron, `tcpdump`, and UFW.
 
-- [Explore the lab and its evidence](01-ssh-brute-force-detection/README.md)
+- [Explore the lab and its evidence](01-ssh-brute-force-detection/Readme.md) 
 - [Read the technical report](01-ssh-brute-force-detection/report/SSH_Brute_Force_Detection_Alerting_and_Firewall_Response_Report.pdf)
 - [View the detection script](01-ssh-brute-force-detection/scripts/alert.sh)
 
