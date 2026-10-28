@@ -56,13 +56,21 @@ Future projects will expand on these areas as my practical experience grows.
 ## Repository Structure
 
 cybersecurity-labs/
+
 ├── README.md
+
 └── 01-ssh-brute-force-detection/
+
     ├── README.md
+    
     ├── evidence/
+    
     ├── log/
+    
     ├── report/
+    
     ├── scripts/
+    
     └── videos/
     
 *Additional labs and supporting materials will be added as the portfolio develops.*
